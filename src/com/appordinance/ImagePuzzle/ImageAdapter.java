@@ -4,7 +4,7 @@ package com.appordinance.ImagePuzzle;
 
 import java.lang.reflect.Field;
 
-import net.cs76.projects.nPuzzle80815298.R;
+import com.appordinance.ImagePuzzle.R;
 
 import android.content.Context;
 import android.graphics.Bitmap;

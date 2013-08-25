@@ -2,7 +2,7 @@
 
 package com.appordinance.ImagePuzzle;
 
-import net.cs76.projects.nPuzzle80815298.R;
+import com.appordinance.ImagePuzzle.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;

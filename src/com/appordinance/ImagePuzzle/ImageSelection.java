@@ -1,7 +1,7 @@
 /* author: Christopher Farm*/
 package com.appordinance.ImagePuzzle;
 
-import net.cs76.projects.nPuzzle80815298.R;
+import com.appordinance.ImagePuzzle.R;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -48,7 +48,7 @@ public class ImageSelection extends ListActivity implements
 		for (int i = 0; i < parent.getCount(); i++){
 			if(position == i){
 				name = "drawable/puzzle_" + Integer.toString(i);
-				res = getResources().getIdentifier(name, "id", "net.cs76.projects.nPuzzle80815298");
+				res = getResources().getIdentifier(name, "id", "com.appordinance.ImagePuzzle");
 			}
 		}
 		

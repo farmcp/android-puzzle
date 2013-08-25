@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package net.cs76.projects.nPuzzle80815298;
+package com.appordinance.ImagePuzzle;
 
 public final class R {
     public static final class array {
