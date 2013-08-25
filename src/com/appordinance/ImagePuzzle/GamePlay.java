@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Point;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -41,7 +42,7 @@ public class GamePlay extends Activity implements OnClickListener {
 	
 	//create parameters for the table and the images 
 	LayoutParams layout = new LayoutParams(LayoutParams.WRAP_CONTENT,
-			LayoutParams.FILL_PARENT);
+			LayoutParams.MATCH_PARENT);
 	LayoutParams layout_image = new LayoutParams(LayoutParams.WRAP_CONTENT,
 			LayoutParams.WRAP_CONTENT);
 
@@ -66,8 +67,10 @@ public class GamePlay extends Activity implements OnClickListener {
 
 		// get screen width and height
 		Display display = getWindowManager().getDefaultDisplay();
-		final double SCREEN_WIDTH = display.getWidth();
-		final double SCREEN_HEIGHT = display.getHeight();
+		Point size = new Point();
+		display.getSize(size);
+		final double SCREEN_WIDTH = size.x;
+		final double SCREEN_HEIGHT = size.y;
 
 		// create a new TableLayout so I can put images into the table
 		tl = new TableLayout(this);
