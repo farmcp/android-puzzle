@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Image Puzzle</string>
+    <string name="activity1_name">Image Selection</string>
+    <string-array name="pictures_array">
+    	<item id="pic1">Picture_1 Celtics</item>
+    	<item id="pic2">Picture_2 Patriots</item>
+    	<item id="pic3">Picture_3 Bruins</item>
+    		
+    </string-array>
+    
+</resources>
