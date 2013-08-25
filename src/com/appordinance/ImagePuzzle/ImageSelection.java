@@ -1,4 +1,4 @@
-/* author: Christopher Farm HUID: 80815298*/
+/* author: Christopher Farm*/
 package com.appordinance.ImagePuzzle;
 
 import net.cs76.projects.nPuzzle80815298.R;
