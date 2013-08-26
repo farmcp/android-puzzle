@@ -55,8 +55,7 @@ public class ImageSelection extends ListActivity implements
 		//fire an intent and send the resource integer so that picture can be accessed in new activity
 		Intent i = new Intent(this, GamePlay.class);
 		i.putExtra("pictureRef", res);
-
+		ImageSelection.this.finish();
 		startActivity(i);
-
 	}
 }

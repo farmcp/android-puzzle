@@ -44,9 +44,6 @@ public class YouWin extends Activity implements OnClickListener{
 			SharedPreferences.Editor editor = settings.edit();
 			editor.putBoolean("hasPlayed", false);
 			editor.commit();
-			
-			
-			
 		}
 		
 	}

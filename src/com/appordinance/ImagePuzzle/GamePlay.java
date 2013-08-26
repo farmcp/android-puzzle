@@ -676,7 +676,6 @@ public class GamePlay extends Activity implements OnClickListener {
 			editor.commit();
 		}
 		
-		
 	}
 
 	public ImageView[][] rearrangeImages(ImageView[][] imageArray, int lvl) {
@@ -854,8 +853,7 @@ public class GamePlay extends Activity implements OnClickListener {
 			//reset the moves and the hasplayed
 			moves = 0;
 			editor.putBoolean("hasPlayed", false).commit();
-			Intent home = new Intent(this, ImageSelection.class);
-			startActivity(home);
+			startActivity(new Intent(this, ImageSelection.class));
 			return true;
 
 		case R.id.shuffle:
