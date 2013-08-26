@@ -24,7 +24,7 @@ public class ImageSelection extends ListActivity implements
 		//Set up shared preferences and check if game has been played before
 		SharedPreferences settings = getSharedPreferences(GAME_SETTINGS, 0);
 		if (settings.getBoolean("hasPlayed", false) == true) {
-			//if game has been played, then go straight to gameplay with the picture that was stored
+			//if game has been played, then go straight to game play with the picture that was stored
 			Intent i = new Intent(this, GamePlay.class);
 			int res = settings.getInt("imageUsed", R.drawable.puzzle_0);
 			i.putExtra("pictureRef", res);
