@@ -21,7 +21,7 @@ public class ImageSelection extends ListActivity implements
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		//Set up shared preferences and check if game has been played before
+		//Set up shared preferences and check if game has been played beforea
 		SharedPreferences settings = getSharedPreferences(GAME_SETTINGS, 0);
 		if (settings.getBoolean("hasPlayed", false) == true) {
 			//if game has been played, then go straight to game play with the picture that was stored
